@@ -150,7 +150,7 @@ export default function ProfileScreen() {
                   fontFamily: "Raleway_700Bold",
                 }}
               >
-                Account Details
+                የአካውንት ዝርዝር
               </Text>
               <TouchableOpacity
                 style={{
@@ -188,7 +188,7 @@ export default function ProfileScreen() {
                     <Text
                       style={{ fontSize: 16, fontFamily: "Nunito_700Bold" }}
                     >
-                      Detail Profile
+                      የፕሮፋይል ዝርዝር
                     </Text>
                     <Text
                       style={{
@@ -196,7 +196,7 @@ export default function ProfileScreen() {
                         fontFamily: "Nunito_400Regular",
                       }}
                     >
-                      Information Account
+                      የአካውንት ኢንፎርሜሽን
                     </Text>
                   </View>
                 </View>
@@ -241,7 +241,7 @@ export default function ProfileScreen() {
                     <Text
                       style={{ fontSize: 16, fontFamily: "Nunito_700Bold" }}
                     >
-                      Enrolled courses
+                      የተመዘገቡት ኮርስ
                     </Text>
                     <Text
                       style={{
@@ -249,7 +249,7 @@ export default function ProfileScreen() {
                         fontFamily: "Nunito_400Regular",
                       }}
                     >
-                      The all enrolled courses
+                      የተመዘገቡት ሁሉም ኮርሶች
                     </Text>
                   </View>
                 </View>
@@ -294,7 +294,7 @@ export default function ProfileScreen() {
                     <Text
                       style={{ fontSize: 16, fontFamily: "Nunito_700Bold" }}
                     >
-                      Log Out
+                      ዘግታው ይውጡ
                     </Text>
                   </TouchableOpacity>
                 </View>

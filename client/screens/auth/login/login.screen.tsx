@@ -69,19 +69,19 @@ export default function LoginScreen() {
     if (!passwordSpecialCharacter.test(password)) {
       setError({
         ...error,
-        password: "Write at least one special character",
+        password: "ብያንስ ከተለዩ ምልክቶች ውስጥ አንዱን ያስገቡ",
       });
       setUserInfo({ ...userInfo, password: "" });
     } else if (!passwordOneNumber.test(password)) {
       setError({
         ...error,
-        password: "Write at least one number",
+        password: "ብያንስ አንድ ቁጥር ያስገቡ",
       });
       setUserInfo({ ...userInfo, password: "" });
     } else if (!passwordSixValue.test(password)) {
       setError({
         ...error,
-        password: "Write at least 6 characters",
+        password: "ብያንስ ርዝመቱ ስድስት መሆን አለበት",
       });
       setUserInfo({ ...userInfo, password: "" });
     } else {
@@ -106,7 +106,7 @@ export default function LoginScreen() {
       })
       .catch((error) => {
         console.log(error);
-        Toast.show("Email or password is not correct!", {
+        Toast.show("ኢሜሎ ወይም የይለፍ ቃሎ የተሳሳተ ነው!", {
           type: "danger",
         });
       });

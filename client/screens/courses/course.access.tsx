@@ -271,7 +271,7 @@ export default function CourseAccessScreen() {
               }}
             >
               <Text style={{ fontSize: 18, fontFamily: "Raleway_700Bold" }}>
-                About course
+                ስለ ኮርሱ
               </Text>
               <Text
                 style={{
@@ -310,7 +310,7 @@ export default function CourseAccessScreen() {
                 <TextInput
                   value={quesion}
                   onChangeText={setQuesion}
-                  placeholder="Ask a question..."
+                  placeholder="ጥያቄ ካሎት ይጠይቁን..."
                   style={{
                     marginVertical: 20,
                     flex: 1,
@@ -376,7 +376,7 @@ export default function CourseAccessScreen() {
                   <TextInput
                     value={review}
                     onChangeText={setReview}
-                    placeholder="Give one review..."
+                    placeholder="እስቲ ግምገማዎም ይስጡን..."
                     style={{
                       flex: 1,
                       textAlignVertical: "top",

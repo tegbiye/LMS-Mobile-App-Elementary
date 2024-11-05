@@ -6,7 +6,7 @@ import {
 import { useFonts, Raleway_700Bold } from "@expo-google-fonts/raleway";
 import { LinearGradient } from "expo-linear-gradient";
 import AppIntroSlider from "react-native-app-intro-slider";
-import { onboardingSwiperData } from "@/constants/constans";
+import { onboardingSwiperData } from "@/constants/constants";
 import { router } from "expo-router";
 import { commonStyles } from "@/styles/common/common.styles";
 import { styles } from "@/styles/onboarding/onboard";
@@ -80,7 +80,7 @@ export default function WelcomeIntroScreen() {
           <Text
             style={[styles.buttonText, { fontFamily: "Nunito_600SemiBold" }]}
           >
-            Next
+            ቀጣይ
           </Text>
         </View>
       )}
@@ -89,7 +89,7 @@ export default function WelcomeIntroScreen() {
           <Text
             style={[styles.buttonText, { fontFamily: "Nunito_600SemiBold" }]}
           >
-            Done
+            ጨርስ
           </Text>
         </View>
       )}

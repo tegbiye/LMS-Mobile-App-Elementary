@@ -90,7 +90,7 @@ export default function CourseDetailScreen() {
                     fontFamily: "Nunito_600SemiBold",
                   }}
                 >
-                  Best Seller
+                  የተዋጣለት ኮርስ
                 </Text>
               </View>
               <View style={{ position: "absolute", zIndex: 14, right: 0 }}>
@@ -171,7 +171,7 @@ export default function CourseDetailScreen() {
             </View>
             <View style={{ padding: 10 }}>
               <Text style={{ fontSize: 20, fontWeight: "600" }}>
-                Course Prerequisites
+                የኮርሱ ቅደመ ሁኔታ
               </Text>
               {courseData?.prerequisites.map(
                 (item: PrerequisiteType, index: number) => (
@@ -192,9 +192,7 @@ export default function CourseDetailScreen() {
               )}
             </View>
             <View style={{ padding: 10 }}>
-              <Text style={{ fontSize: 20, fontWeight: "600" }}>
-                Course Benefits
-              </Text>
+              <Text style={{ fontSize: 20, fontWeight: "600" }}>የኮርሱ ጥቅሞች</Text>
               {courseData?.benefits.map((item: BenefitType, index: number) => (
                 <View
                   key={index}
@@ -237,7 +235,7 @@ export default function CourseDetailScreen() {
                     fontFamily: "Nunito_600SemiBold",
                   }}
                 >
-                  About
+                  ስለ ኮርሱ
                 </Text>
               </TouchableOpacity>
               <TouchableOpacity
@@ -256,7 +254,7 @@ export default function CourseDetailScreen() {
                     fontFamily: "Nunito_600SemiBold",
                   }}
                 >
-                  Lessons
+                  የኮርሱ ትምህርቶች
                 </Text>
               </TouchableOpacity>
               <TouchableOpacity
@@ -275,7 +273,7 @@ export default function CourseDetailScreen() {
                     fontFamily: "Nunito_600SemiBold",
                   }}
                 >
-                  Reviews
+                  ግምገማ
                 </Text>
               </TouchableOpacity>
             </View>
@@ -288,7 +286,7 @@ export default function CourseDetailScreen() {
                 }}
               >
                 <Text style={{ fontSize: 18, fontFamily: "Raleway_700Bold" }}>
-                  About course
+                  ስለ ኮርሱ መግለጫ
                 </Text>
                 <Text
                   style={{
@@ -368,7 +366,7 @@ export default function CourseDetailScreen() {
                     fontFamily: "Nunito_600SemiBold",
                   }}
                 >
-                  Go to the course
+                  ወደ ኮርሱ ይሂዱ
                 </Text>
               </TouchableOpacity>
             ) : (
@@ -388,7 +386,7 @@ export default function CourseDetailScreen() {
                     fontFamily: "Nunito_600SemiBold",
                   }}
                 >
-                  Add to cart
+                  ወደ ቅርጫት ያስገቡት
                 </Text>
               </TouchableOpacity>
             )}
