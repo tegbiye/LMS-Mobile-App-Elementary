@@ -3,7 +3,7 @@ import { useFonts, Raleway_700Bold } from "@expo-google-fonts/raleway";
 import { Nunito_400Regular, Nunito_700Bold } from "@expo-google-fonts/nunito";
 import { styles } from "@/styles/home/banner.style";
 import Swiper from "react-native-swiper";
-import { bannerData } from "@/constants/constans";
+import { bannerData } from "@/constants/constants";
 
 export default function HomeBannerSlider() {
   let [fontsLoaded, fontError] = useFonts({

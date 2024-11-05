@@ -63,7 +63,7 @@ export default function AllCourses() {
             fontFamily: "Raleway_700Bold",
           }}
         >
-          Popular courses
+          ተዋቂ ኮርሶች
         </Text>
         <TouchableOpacity onPress={() => router.push("/(tabs)/courses")}>
           <Text
@@ -73,7 +73,7 @@ export default function AllCourses() {
               fontFamily: "Nunito_600SemiBold",
             }}
           >
-            See All
+            ሁሉንም ይመልከቱ
           </Text>
         </TouchableOpacity>
       </View>
