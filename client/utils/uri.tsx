@@ -1,1 +1,1 @@
-export const SERVER_URI = "https://192.168.43.29:8081/api/v1";
+export const SERVER_URI = "https://10.240.69.125:8000/api/v1";
