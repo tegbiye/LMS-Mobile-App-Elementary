@@ -24,3 +24,4 @@ const layoutSchema = new mongoose_1.Schema({
 });
 const LayoutModel = (0, mongoose_1.model)('Layout', layoutSchema);
 exports.default = LayoutModel;
+//# sourceMappingURL=layout.model.js.map

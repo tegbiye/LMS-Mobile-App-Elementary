@@ -11,3 +11,4 @@ layoutRouter.post("/create-layout", auth_1.isAuthenticated, (0, auth_1.authorize
 layoutRouter.put("/edit-layout", auth_1.isAuthenticated, (0, auth_1.authorizeRoles)("admin"), layout_controller_1.editLayout);
 layoutRouter.get("/get-layout/:type", layout_controller_1.getLayoutByType);
 exports.default = layoutRouter;
+//# sourceMappingURL=layout.route.js.map

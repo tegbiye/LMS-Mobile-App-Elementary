@@ -73,3 +73,4 @@ userSchema.methods.comparePassword = async function (enteredPassword) {
 };
 const userModel = mongoose_1.default.model("User", userSchema);
 exports.default = userModel;
+//# sourceMappingURL=user.model.js.map

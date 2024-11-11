@@ -23,3 +23,4 @@ async function generateLast12MothsData(model) {
     }
     return { last12Months };
 }
+//# sourceMappingURL=analytics.generator.js.map

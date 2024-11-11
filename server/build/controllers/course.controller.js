@@ -342,3 +342,4 @@ exports.generateVideoUrl = (0, catchAsyncErrors_1.CatchAsyncError)(async (req, r
         return next(new ErrorHandler_1.default(error.message, 400));
     }
 });
+//# sourceMappingURL=course.controller.js.map

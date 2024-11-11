@@ -54,3 +54,4 @@ node_cron_1.default.schedule("0 0 0 * * *", async () => {
     await notification_Model_1.default.deleteMany({ status: "read", createdAt: { $lt: thirtyDaysAgo } });
     console.log('Deleted read notifications');
 });
+//# sourceMappingURL=notification.controller.js.map
