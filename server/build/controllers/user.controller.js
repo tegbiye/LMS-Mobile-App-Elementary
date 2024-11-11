@@ -92,7 +92,7 @@ exports.activateUser = (0, catchAsyncErrors_1.CatchAsyncError)(async (req, res, 
 exports.loginUser = (0, catchAsyncErrors_1.CatchAsyncError)(async (req, res, next) => {
     try {
         const { email, password } = req.body;
-        console.log(email, password);
+        //console.log(email, password);
         if (!email || !password) {
             return next(new ErrorHandler_1.default("Please enter email and password", 400));
         }
@@ -330,3 +330,4 @@ exports.deleteUser = (0, catchAsyncErrors_1.CatchAsyncError)(async (req, res, ne
         return next(new ErrorHandler_1.default(error.message, 400));
     }
 });
+//# sourceMappingURL=user.controller.js.map

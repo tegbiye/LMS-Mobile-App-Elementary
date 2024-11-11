@@ -20,3 +20,4 @@ courseRouter.put("/add-reply", auth_1.isAuthenticated, (0, auth_1.authorizeRoles
 courseRouter.post("/getVdoCipherOTP", course_controller_1.generateVideoUrl);
 courseRouter.delete("/delete-course/:id", auth_1.isAuthenticated, (0, auth_1.authorizeRoles)("admin"), course_controller_1.deleteCourse);
 exports.default = courseRouter;
+//# sourceMappingURL=course.route.js.map

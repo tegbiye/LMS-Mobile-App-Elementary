@@ -5,3 +5,4 @@ const CatchAsyncError = (theFunc) => (req, res, next) => {
     Promise.resolve(theFunc(req, res, next)).catch(next);
 };
 exports.CatchAsyncError = CatchAsyncError;
+//# sourceMappingURL=catchAsyncErrors.js.map

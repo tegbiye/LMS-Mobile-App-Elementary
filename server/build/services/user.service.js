@@ -36,3 +36,4 @@ const updateUserRoleService = async (res, id, role) => {
     });
 };
 exports.updateUserRoleService = updateUserRoleService;
+//# sourceMappingURL=user.service.js.map

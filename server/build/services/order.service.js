@@ -23,3 +23,4 @@ const getAllOrdersService = async (res) => {
     });
 };
 exports.getAllOrdersService = getAllOrdersService;
+//# sourceMappingURL=order.service.js.map

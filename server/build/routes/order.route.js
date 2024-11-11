@@ -13,3 +13,4 @@ orderRouter.get("/get-orders", auth_1.isAuthenticated, (0, auth_1.authorizeRoles
 orderRouter.get("/payment/stripepublishablekey", order_controller_1.sendStripePublishableKey);
 orderRouter.post("/payment", auth_1.isAuthenticated, order_controller_1.newPayment);
 exports.default = orderRouter;
+//# sourceMappingURL=order.route.js.map

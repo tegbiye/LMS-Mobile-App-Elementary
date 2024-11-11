@@ -11,3 +11,4 @@ const redisClient = () => {
     throw new Error('Redis connection failed');
 };
 exports.redis = new ioredis_1.Redis(redisClient());
+//# sourceMappingURL=redis.js.map

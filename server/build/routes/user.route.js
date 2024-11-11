@@ -21,3 +21,4 @@ userRouter.get("/get-users", auth_1.isAuthenticated, (0, auth_1.authorizeRoles)(
 userRouter.put("/update-user", auth_1.isAuthenticated, (0, auth_1.authorizeRoles)("admin"), user_controller_1.updateUserRole);
 userRouter.delete("/delete-user/:id", auth_1.isAuthenticated, (0, auth_1.authorizeRoles)("admin"), user_controller_1.deleteUser);
 exports.default = userRouter;
+//# sourceMappingURL=user.route.js.map
