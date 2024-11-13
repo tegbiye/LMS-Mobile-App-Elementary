@@ -19,7 +19,7 @@ const courseRouter = express.Router();
 courseRouter.post(
   "/create-course",
   isAuthenticated,
-  authorizeRoles("admin"),
+  //authorizeRoles("admin"),
   uploadCourse
 );
 
