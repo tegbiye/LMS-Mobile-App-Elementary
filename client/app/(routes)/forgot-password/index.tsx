@@ -37,16 +37,16 @@ export default function ForgotPassword() {
       />
       <TouchableOpacity style={styles.button}>
         <Text style={[styles.buttonText, { fontFamily: "Nunito_600SemiBold" }]}>
-          Send
+          ይላኩ
         </Text>
       </TouchableOpacity>
       <View style={styles.loginLink}>
         <Text style={[styles.backText, { fontFamily: "Nunito_700Bold" }]}>
-          Back To?
+          ወደ ኋላ?
         </Text>
         <TouchableOpacity onPress={() => router.back()}>
           <Text style={[styles.loginText, { fontFamily: "Nunito_700Bold" }]}>
-            Sign In
+            ወደ ውስጥ ይግቡ
           </Text>
         </TouchableOpacity>
       </View>

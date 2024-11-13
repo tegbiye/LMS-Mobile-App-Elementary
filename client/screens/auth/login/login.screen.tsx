@@ -125,7 +125,7 @@ export default function LoginScreen() {
         <Text style={[styles.welcomeText, { fontFamily: "Raleway_700Bold" }]}>
           እንኳን ደህና መጡ!
         </Text>
-        <Text style={styles.learningText}>ባሎት የአስኳላ አካዳሚ አካንት ይግቡ</Text>
+        <Text style={styles.learningText}>ባሎት የአስኳላ አካዳሚ አካውንት ይግቡ</Text>
         <View style={styles.inputContainer}>
           <View>
             <TextInput
