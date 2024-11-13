@@ -32,7 +32,7 @@ export default function OnBoardingScreen() {
             source={require("@/assets/onboarding/shape_3.png")}
           />
           <Text style={[styles.titleText, { fontFamily: "Raleway_700Bold" }]}>
-            ትምህርቶን በአስኳላ
+            ትምህርቶን ከአስኳላ
           </Text>
           <Image
             style={styles.titleTextShape2}

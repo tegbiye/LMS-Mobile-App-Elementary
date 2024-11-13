@@ -7,6 +7,7 @@ import {
   TextInput,
   TouchableOpacity,
   ActivityIndicator,
+  FlatList,
 } from "react-native";
 import {
   AntDesign,
@@ -96,7 +97,7 @@ export default function SignUpScreen() {
     }
   };
 
-  const handleSignIn = async () => {
+  const handleSignUp = async () => {
     setButtonSpinner(true);
 
     await axios
@@ -232,7 +233,7 @@ export default function SignUpScreen() {
                 backgroundColor: "#2467EC",
                 marginTop: 15,
               }}
-              onPress={handleSignIn}
+              onPress={handleSignUp}
             >
               {buttonSpinner ? (
                 <ActivityIndicator size="small" color={"white"} />

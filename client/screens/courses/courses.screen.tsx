@@ -134,7 +134,7 @@ export default function CoursesScreen() {
               <Text
                 style={{ textAlign: "center", paddingTop: 50, fontSize: 18 }}
               >
-                ምንም ዳታ አልተገኘም!
+                ምንም መረጃ አልተገኘም!
               </Text>
             )}
           </View>
