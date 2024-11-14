@@ -277,7 +277,7 @@ export default function CourseDetailScreen() {
                     fontFamily: "Nunito_600SemiBold",
                   }}
                 >
-                  ግምገማ
+                  Reviews
                 </Text>
               </TouchableOpacity>
             </View>
@@ -290,7 +290,7 @@ export default function CourseDetailScreen() {
                 }}
               >
                 <Text style={{ fontSize: 18, fontFamily: "Raleway_700Bold" }}>
-                  ስለ ኮርሱ መግለጫ
+                  About
                 </Text>
                 <Text
                   style={{

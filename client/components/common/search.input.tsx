@@ -73,7 +73,11 @@ export default function SearchInput({ homeScreen }: { homeScreen?: boolean }) {
       }
     >
       <Image
-        source={{ uri: item?.thumbnail?.url }}
+        source={{
+          uri:
+            item?.thumbnail?.url ||
+            "https://drive.google.com/file/d/1XSHjs2TaQ7ym_UUuR2rKfFxC44DAqjEL/view?usp=sharing",
+        }}
         style={{ width: 60, height: 60, borderRadius: 10 }}
       />
       <Text
@@ -129,7 +133,7 @@ export default function SearchInput({ homeScreen }: { homeScreen?: boolean }) {
                 fontWeight: "600",
               }}
             >
-              No data avaialble to show!
+              ምንም አይነት ለማሳየት የተፈለገው የትምህርት መረጃ አልተገኘም!
             </Text>
           )}
         </>

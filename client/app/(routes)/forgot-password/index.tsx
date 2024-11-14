@@ -28,7 +28,7 @@ export default function ForgotPassword() {
   return (
     <LinearGradient colors={["#E5ECF9", "#F6F7F9"]} style={styles.container}>
       <Text style={[styles.headerText, { fontFamily: "Nunito_600SemiBold" }]}>
-        Reset Email Password
+        የኢሜል ይለፍ ቃልዎን ይቀይሩ
       </Text>
       <TextInput
         style={[styles.input, { fontFamily: "Nunito_400Regular" }]}

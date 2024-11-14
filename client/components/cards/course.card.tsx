@@ -96,7 +96,7 @@ export default function CourseCard({ item }: { item: CoursesType }) {
           >
             <Ionicons name="list-outline" size={20} color={"#8A8A8A"} />
             <Text style={{ marginLeft: 5 }}>
-              {item.courseData.length} Lectures
+              {item.courseData.length} የሌክቸር ቪድዮች
             </Text>
           </View>
         </View>

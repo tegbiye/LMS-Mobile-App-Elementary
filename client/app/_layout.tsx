@@ -56,7 +56,7 @@ function RootLayoutNav() {
           name="(routes)/course-details/index"
           options={{
             headerShown: true,
-            title: "Course Details",
+            title: "የኮርሱ ዝርዝር",
             headerBackTitle: "Back",
           }}
         />
@@ -80,7 +80,7 @@ function RootLayoutNav() {
           name="(routes)/course-access/index"
           options={{
             headerShown: true,
-            title: "Course Lessons",
+            title: "የኮርሱ ትምህርት",
             headerBackTitle: "Back",
           }}
         />
@@ -88,7 +88,7 @@ function RootLayoutNav() {
           name="(routes)/enrolled-courses/index"
           options={{
             headerShown: true,
-            title: "Enrolled Courses",
+            title: "የተመዘገቡት ኮርሶች",
             headerBackTitle: "Back",
           }}
         />
