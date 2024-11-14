@@ -100,7 +100,7 @@ export default function QuestionsCard({
       {item?.questionReplies.length === 0 ? (
         <TouchableOpacity onPress={() => setOpen(!open)}>
           <Text style={{ fontSize: 18, paddingLeft: 15, paddingBottom: 10 }}>
-            Add Reply
+            ግብረ መልስ ይስጡ
           </Text>
         </TouchableOpacity>
       ) : (
@@ -165,7 +165,7 @@ export default function QuestionsCard({
                 <Text
                   style={{ fontSize: 18, paddingLeft: 15, paddingBottom: 10 }}
                 >
-                  Add Reply
+                  ግብረ መልስ ይስጡ
                 </Text>
               </TouchableOpacity>
             </>
