@@ -146,7 +146,7 @@ export default function CartScreen() {
           />
           <View style={{ alignItems: "center", marginBottom: 20 }}>
             <Text style={{ fontSize: 22, fontFamily: "Raleway_700Bold" }}>
-              Payment Successful!
+              ግዢው ተፈጽሟል!
             </Text>
             <Text
               style={{
@@ -280,7 +280,7 @@ export default function CartScreen() {
                         fontFamily: "Nunito_600SemiBold",
                       }}
                     >
-                      Remove
+                      አጥፋ
                     </Text>
                   </TouchableOpacity>
                 </View>
@@ -326,7 +326,7 @@ export default function CartScreen() {
                     fontFamily: "Nunito_700Bold",
                   }}
                 >
-                  Total Price: ${calculateTotalPrice()}
+                  ጠቅላላ ዋጋ: ${calculateTotalPrice()}
                 </Text>
               ))}
             {cartItems?.length === 0 ||

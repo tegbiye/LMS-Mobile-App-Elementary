@@ -271,7 +271,7 @@ export default function CourseAccessScreen() {
               }}
             >
               <Text style={{ fontSize: 18, fontFamily: "Raleway_700Bold" }}>
-                ስለ ኮርሱ
+                About
               </Text>
               <Text
                 style={{
