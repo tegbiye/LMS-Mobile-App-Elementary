@@ -182,7 +182,11 @@ export default function CartScreen() {
               >
                 <TouchableOpacity onPress={() => handleCourseDetails(item)}>
                   <Image
-                    source={{ uri: item.thumbnail.url! }}
+                    source={{
+                      uri:
+                        item.thumbnail?.url ||
+                        "https://drive.google.com/file/d/19qh0tMFgSuA4cpBiV9ZpUEjesCNtxiu_/view?usp=sharing",
+                    }}
                     style={{
                       width: 100,
                       height: 100,
